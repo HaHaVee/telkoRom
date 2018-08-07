@@ -1,0 +1,58 @@
+body{
+	/*background-color: rgba(104, 154, 155, 1);*/
+	background: #30E8BF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+	position: relative;
+	display: inline-block;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40vh auto;
+}
+
+.container div{
+	display: inline-block;
+	margin: auto;
+}
+
+img{
+	width: 10vw;
+	height: 7vw;
+}
+
+
+@media only screen and (max-width: 700px) {
+    /*body {
+        background-color: lightblue;
+    }*/
+
+    .container{
+    display: block;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    }
+
+    .container div{
+    	display: block;
+    	margin-left: 10vw;
+    	margin-right: 10vw;
+    	padding-left: auto;
+
+
+    }
+
+    img{
+    	/*padding-left: 5vw;
+    	padding-right: 5vw;*/
+    	width: 40vw;
+    	height: 20vh;
+    	margin-left: auto;
+	    margin-right: auto;
+	    display: block;
+    }
+}
